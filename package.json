@@ -1,0 +1,24 @@
+{
+  "name": "webpack-hub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack src/js/app.js --output dist/bundle.js --mode production" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntnikhilesh/webpack-hub.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ntnikhilesh/webpack-hub/issues"
+  },
+  "homepage": "https://github.com/ntnikhilesh/webpack-hub#readme",
+  "devDependencies": {
+    "webpack": "^4.16.1",
+    "webpack-cli": "^2.0.9"
+  }
+}
